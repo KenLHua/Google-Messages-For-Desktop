@@ -1,7 +1,7 @@
 # Google Messages for Desktop
 
 New: Hidden titlebar
-![Hidden Dark Mode Title Bar](https://imgur.com/fU9bqpJ)
+![Hidden Dark Mode Title Bar](https://i.imgur.com/fU9bqpJ.png)
 
 ![Google Messages Home Page](https://i.imgur.com/OVKBkNY.png)
 
