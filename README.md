@@ -1,5 +1,8 @@
 # Google Messages for Desktop
 
+New: Hidden titlebar
+![Hidden Dark Mode Title Bar](https://imgur.com/fU9bqpJ)
+
 ![Google Messages Home Page](https://i.imgur.com/OVKBkNY.png)
 
 A "native-like" desktop app for [Google Messages](https://www.messagesfordesktop.com/). This desktop app is supported by both [Nativefier](https://github.com/jiahaog/nativefier) and [Electron](https://github.com/electron/electron) version `^1.7.6`.
