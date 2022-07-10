@@ -1,5 +1,3 @@
-html, body {
-  height: 100%;
-  margin: 0;
+.header, .new-chat-header, .main-landing {
   -webkit-app-region: drag;
 }
