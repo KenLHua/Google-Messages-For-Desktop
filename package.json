@@ -4,11 +4,7 @@
   "description": "A \"native-like\" desktop app for Google Messages. ",
   "main": "index.js",
   "scripts": {
-    "mac": "npx nativefier --platform \"mac\" --icon android-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Mac",
-    "windows": "npx nativefier --platform \"windows\" --icon android-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Windows",
-    "windows:tray": "npx nativefier --platform \"windows\" --icon android-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance --tray dist/Windows_Tray",
-    "linux": "npx nativefier --platform \"linux\" --icon android-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance dist/Linux",
-    "build:all": "npm run mac && npm run windows && npm run windows:tray && npm run linux"
+    "windows:tray": "npx nativefier --inject inject/main.css --platform \"windows\" --icon android-messages-logo.png --name \"Google Messages\" \"https://messages.google.com/web\" --honest --disable-dev-tools --single-instance --tray dist/Windows_Tray --title-bar-style hidden --browserwindow-options \"{\"\"titleBarOverlay\"\": {\"\"color\"\": \"\"#2f3241\"\", \"\"symbolColor\"\": \"\"#74b1be\"\"}}\""
   },
   "repository": {
     "type": "git",
